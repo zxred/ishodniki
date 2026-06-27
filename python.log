@@ -1,0 +1,196 @@
+
+
+/------------------------------------------------------------------------------------------\
+WorldOfTanks(x64) Build: 1.23.0.6 #2013690 starting on Sat Jun 27 12:31:57 2026
+
+2026-06-27 12:31:57.705: INFO: [WinMain] Command line: D:/games/Mir_Tankov_1.23.0.0_1730_RU_HD/win64/WorldOfTanks.exe
+2026-06-27 12:32:00.990: INFO: [Scaleform] Create GUI Component: 'FirstScreen'
+2026-06-27 12:32:00.990: INFO: [Scaleform] Create GUI Component: 'bg'
+2026-06-27 12:32:00.991: INFO: [Scaleform] Create GUI Component: 'logo'
+2026-06-27 12:32:00.991: INFO: [Scaleform] Create GUI Component: 'ageRating'
+2026-06-27 12:32:01.930: INFO: [SOUND] Start loading Main task
+2026-06-27 12:32:01.930: INFO: [SOUND] Start loading Mod task
+2026-06-27 12:32:02.018: INFO: [Unbound] Unbound initialized
+2026-06-27 12:32:03.287: INFO: [Config] Default encoding set to utf-8
+2026-06-27 12:32:03.353: INFO: [PY_DEBUG] Release Client - Content Type: hd
+2026-06-27 12:32:03.354: INFO: [PY_DEBUG] Checking D:/games/Mir_Tankov_1.23.0.0_1730_RU_HD/res_mods/1.23.0.0/: mods found
+2026-06-27 12:32:03.354: INFO: [PY_DEBUG] Checking D:/games/Mir_Tankov_1.23.0.0_1730_RU_HD/mods/1.23.0.0/: mods not found
+2026-06-27 12:32:06.085: INFO: [Scaleform] Create GUI Component: 'GFGUIComponent'
+2026-06-27 12:32:06.528: INFO: [Scaleform] Create GUI Component: 'gui/flash/splashScreenApp.swf'
+2026-06-27 12:32:06.529: DEBUG: [helpers.uniprof.regions] Region is entered: label=offline.splash_screen, color=0x815325
+2026-06-27 12:32:06.529: INFO: [Scaleform] Removing Component:  This 67d539d0, owner FirstScreen
+2026-06-27 12:32:06.529: INFO: [Scaleform]   Removing Component:  This 66021bd0, owner bg
+2026-06-27 12:32:06.529: INFO: [Scaleform]   Removing Component:  This 66021dd0, owner logo
+2026-06-27 12:32:06.529: INFO: [Scaleform]   Removing Component:  This 660225d0, owner ageRating
+2026-06-27 12:32:06.529: INFO: [Scaleform] Component Removed
+2026-06-27 12:32:06.529: INFO: [Scaleform] Destroy GUI Component: 'FirstScreen'
+2026-06-27 12:32:06.529: INFO: [Scaleform] Destroy GUI Component: 'bg'
+2026-06-27 12:32:06.529: INFO: [Scaleform] Destroy GUI Component: 'logo'
+2026-06-27 12:32:06.529: INFO: [Scaleform] Destroy GUI Component: 'ageRating'
+2026-06-27 12:32:06.830: INFO: [Scaleform] Stop video net stream
+2026-06-27 12:32:06.830: INFO: [Scaleform] Stop video net stream
+2026-06-27 12:32:06.830: INFO: [Scaleform] Close video net stream
+2026-06-27 12:32:06.830: DEBUG: [helpers.uniprof.regions] Region is exited: label=offline.splash_screen
+2026-06-27 12:32:06.831: DEBUG: [gui.Scaleform.flash_wrapper] Deleted: <gui.game_loading.view.splash_screen.SplashScreen object at 0x00000000986449C8>
+2026-06-27 12:32:06.834: DEBUG: [GameLoading:States] [ProgressBarMilestonesHandler] New milestone type was chosen: MilestonesTypes.CONNECTION. Milestone applied: Milestones.CONNECTION.
+2026-06-27 12:32:06.834: DEBUG: [GameLoading:States] [StatusTextMilestonesHandler] New milestone type was chosen: MilestonesTypes.CONNECTION. Milestone applied: Milestones.CONNECTION.
+2026-06-27 12:32:06.834: DEBUG: [GameLoading:States] [PlayerLoadingStatusTextStateComponent(player.loading.status)] Apply default milestone: Milestones.CONNECTION. Status: Подключение....
+2026-06-27 12:32:06.835: DEBUG: [frameworks.state_machine.machine] GameLoadingStateMachine(): Machine is started by _InitialTransition(State()->[LogosLoadingState(loading.logos)], priority=0)
+2026-06-27 12:32:06.835: DEBUG: [frameworks.state_machine.machine] GameLoadingStateMachine(): LogosLoadingState(loading.logos) is entering
+2026-06-27 12:32:06.837: DEBUG: [GameLoading:States] [LogosLoadingState(loading.logos)] image [<LogoModel(type=1, minShowTimeSec=5.0, copyright=True, version=True, transition=400, info=, infoStyle=default)>] shown.
+2026-06-27 12:32:06.837: DEBUG: [GameLoading:States] [LogosLoadingState(loading.logos)] started.
+2026-06-27 12:32:06.837: INFO: [Scaleform] Removing Component:  This 9c3bd1c0, owner gui/flash/splashScreenApp.swf
+2026-06-27 12:32:06.837: INFO: [Scaleform] Component Removed
+2026-06-27 12:32:06.841: INFO: [Scaleform] Destroy GUI Component: 'gui/flash/splashScreenApp.swf'
+2026-06-27 12:32:07.748: INFO: [SOUND] Task Main loaded in 5.817923 seconds. Size: 45.105232 Mb
+2026-06-27 12:32:07.823: WARNING: [helpers.tips] Tips by tipID(tip188) not in prebattle_tips.xml
+2026-06-27 12:32:07.823: WARNING: [helpers.tips] Tips by tipID(tip200Status) not in prebattle_tips.xml
+2026-06-27 12:32:07.823: WARNING: [helpers.tips] Tips by tipID(tip202Status) not in prebattle_tips.xml
+2026-06-27 12:32:07.823: WARNING: [helpers.tips] Tips by tipID(tip204Status) not in prebattle_tips.xml
+2026-06-27 12:32:07.827: WARNING: [helpers.tips] Tips by tipID(ranked10) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked11) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked12) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked13) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked2) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked4) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked5) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked6) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked7) not in prebattle_tips.xml
+2026-06-27 12:32:07.828: WARNING: [helpers.tips] Tips by tipID(ranked8) not in prebattle_tips.xml
+2026-06-27 12:32:07.848: WARNING: [helpers.tips] Tips by tipID(mapbox0Status) not in prebattle_tips.xml
+2026-06-27 12:32:07.848: WARNING: [helpers.tips] Tips by tipID(mapbox1Status) not in prebattle_tips.xml
+2026-06-27 12:32:07.848: WARNING: [helpers.tips] Tips by tipID(mapbox2Status) not in prebattle_tips.xml
+2026-06-27 12:32:07.848: WARNING: [helpers.tips] Tips by tipID(mapbox3Status) not in prebattle_tips.xml
+2026-06-27 12:32:07.851: WARNING: [helpers.tips] Tips by tipID(devMaps0Status) not in prebattle_tips.xml
+2026-06-27 12:32:07.851: WARNING: [helpers.tips] Tips by tipID(devMaps1Status) not in prebattle_tips.xml
+2026-06-27 12:32:08.001: DEBUG: [root] alias:EpicBattlesEntryPoint was registered for banner entry point validator. Personality: frontline_personality
+2026-06-27 12:32:08.001: DEBUG: [root] alias:EpicBattlesEntryPoint was registered for Limited UI with ruleID:LuiRules.EPIC_BATTLES_ENTRY_POINT. Personality: frontline_personality
+2026-06-27 12:32:08.009: DEBUG: [root] QUEUE_TYPE:28->29 was added to _ARENA_GUI_TYPE_BY_QUEUE_TYPE. Personality: FunRandomPersonality
+2026-06-27 12:32:08.009: DEBUG: [root] queueType:28 was added to QUEUE_TYPE_TO_PREBATTLE_TYPE. Personality: FunRandomPersonality
+2026-06-27 12:32:08.009: DEBUG: [root] prbType:23 was added to PREBATTLE_TYPE_TO_QUEUE_TYPE. Personality: FunRandomPersonality
+2026-06-27 12:32:08.010: DEBUG: [root] arenaGuiType:29 was added for arena descrs class. Personality: FunRandomPersonality
+2026-06-27 12:32:08.010: DEBUG: [root] arenaGuiType:29 was added to VIEW_BATTLE_PAGE_ALIAS_BY_ARENA_GUI_TYPE. Personality: FunRandomPersonality
+2026-06-27 12:32:08.011: DEBUG: [root] prbActionName:fun_random was added to COLUMN_SETTINGS. Personality: FunRandomPersonality
+2026-06-27 12:32:08.011: DEBUG: [root] prbActionName:fun_random was added to BATTLES_SELECTOR_ITEMS. Personality: FunRandomPersonality
+2026-06-27 12:32:08.016: DEBUG: [root] prbActionName:fun_random was registered for ModeSelectorDataProvider. Personality: FunRandomPersonality
+2026-06-27 12:32:08.022: DEBUG: [root] prbActionName:fun_random was registered for entry point. Personality: FunRandomPersonality
+2026-06-27 12:32:08.022: DEBUG: [root] QUEUE_TYPE:28 was registered for entity. Personality: FunRandomPersonality
+2026-06-27 12:32:08.024: DEBUG: [root] alias:FunRandomEntryPoint was registered for banner entry point validator. Personality: FunRandomPersonality
+2026-06-27 12:32:08.024: DEBUG: [root] alias:FunRandomEntryPoint was registered for Limited UI with ruleID:LuiRules.FUN_RANDOM_ENTRY_POINT. Personality: FunRandomPersonality
+2026-06-27 12:32:08.027: DEBUG: [root] queueType:28 was registered for QueueProvider. Personality: FunRandomPersonality
+2026-06-27 12:32:08.057: DEBUG: [root] queueType:28 was added to QUEUE_TYPE_TO_PREBATTLE_ACTION_NAME. Personality: FunRandomPersonality
+2026-06-27 12:32:08.059: DEBUG: [root] prbType:23 was added to PLATOON_VIEW_BY_PRB_TYPE. Personality: FunRandomPersonality
+2026-06-27 12:32:08.059: DEBUG: [root] prbType:23 was added to PRB_TYPE_TO_WELCOME_VIEW_CONTENT_FACTORY. Personality: FunRandomPersonality
+2026-06-27 12:32:08.059: DEBUG: [root] prbType:23 was added to ePlatoonLayouts for layoutType:EPlatoonLayout.MEMBER. Personality: FunRandomPersonality
+2026-06-27 12:32:08.059: DEBUG: [root] prbActionName:funRandomSquad was registered for entry point (squad). Personality: FunRandomPersonality
+2026-06-27 12:32:08.059: DEBUG: [root] prebType:23 was registered for entry point (squad). Personality: FunRandomPersonality
+2026-06-27 12:32:08.059: DEBUG: [root] prebType:23 was registered for entity (squad). Personality: FunRandomPersonality
+2026-06-27 12:32:08.060: DEBUG: [root] prbActionName:funRandomSquad was added to BATTLES_SELECTOR_SQUAD_ITEMS. Personality: FunRandomPersonality
+2026-06-27 12:32:08.060: DEBUG: [root] arenaGuiType:29 was added for squad finder. Personality: FunRandomPersonality
+2026-06-27 12:32:08.060: DEBUG: [root] prbActionName:23 was added to PRB_CLIENT_COMBINED_IDS. Personality: FunRandomPersonality
+2026-06-27 12:32:08.079: DEBUG: [root] QUEUE_TYPE:100->100 was added to _ARENA_GUI_TYPE_BY_QUEUE_TYPE. Personality: story_mode_personality
+2026-06-27 12:32:08.079: DEBUG: [root] queueType:100 was added to QUEUE_TYPE_TO_PREBATTLE_TYPE. Personality: story_mode_personality
+2026-06-27 12:32:08.079: DEBUG: [root] prbType:100 was added to PREBATTLE_TYPE_TO_QUEUE_TYPE. Personality: story_mode_personality
+2026-06-27 12:32:08.080: DEBUG: [root] arenaGuiType:100 was added for arena descrs class. Personality: story_mode_personality
+2026-06-27 12:32:08.080: DEBUG: [root] arenaGuiType:100 was added to VIEW_BATTLE_PAGE_ALIAS_BY_ARENA_GUI_TYPE. Personality: story_mode_personality
+2026-06-27 12:32:08.080: DEBUG: [root] prbActionName:story_mode was added to COLUMN_SETTINGS. Personality: story_mode_personality
+2026-06-27 12:32:08.088: DEBUG: [root] prbActionName:story_mode was added to BATTLES_SELECTOR_ITEMS. Personality: story_mode_personality
+2026-06-27 12:32:08.091: DEBUG: [root] prbActionName:story_mode was registered for ModeSelectorDataProvider. Personality: story_mode_personality
+2026-06-27 12:32:08.101: DEBUG: [root] prbActionName:story_mode was registered for entry point. Personality: story_mode_personality
+2026-06-27 12:32:08.101: DEBUG: [root] QUEUE_TYPE:100 was registered for entity. Personality: story_mode_personality
+2026-06-27 12:32:08.108: DEBUG: [root] QUEUE_TYPE:31000->31000 was added to _ARENA_GUI_TYPE_BY_QUEUE_TYPE. Personality: VersusAIPersonality
+2026-06-27 12:32:08.108: DEBUG: [root] queueType:31000 was added to QUEUE_TYPE_TO_PREBATTLE_TYPE. Personality: VersusAIPersonality
+2026-06-27 12:32:08.108: DEBUG: [root] prbType:31000 was added to PREBATTLE_TYPE_TO_QUEUE_TYPE. Personality: VersusAIPersonality
+2026-06-27 12:32:08.109: DEBUG: [root] arenaGuiType:31000 was added for arena descrs class. Personality: VersusAIPersonality
+2026-06-27 12:32:08.109: DEBUG: [root] arenaGuiType:31000 was added to VIEW_BATTLE_PAGE_ALIAS_BY_ARENA_GUI_TYPE. Personality: VersusAIPersonality
+2026-06-27 12:32:08.109: DEBUG: [root] prbActionName:versusAI was added to COLUMN_SETTINGS. Personality: VersusAIPersonality
+2026-06-27 12:32:08.111: DEBUG: [root] prbActionName:versusAI was added to BATTLES_SELECTOR_ITEMS. Personality: VersusAIPersonality
+2026-06-27 12:32:08.113: DEBUG: [root] prbActionName:versusAI was registered for ModeSelectorDataProvider. Personality: VersusAIPersonality
+2026-06-27 12:32:08.117: DEBUG: [root] prbActionName:versusAI was registered for entry point. Personality: VersusAIPersonality
+2026-06-27 12:32:08.117: DEBUG: [root] QUEUE_TYPE:31000 was registered for entity. Personality: VersusAIPersonality
+2026-06-27 12:32:08.118: DEBUG: [root] queueType:31000 was added to QUEUE_TYPE_TO_PREBATTLE_ACTION_NAME. Personality: VersusAIPersonality
+2026-06-27 12:32:08.118: DEBUG: [root] prbType:31000 was added to PLATOON_VIEW_BY_PRB_TYPE. Personality: VersusAIPersonality
+2026-06-27 12:32:08.118: DEBUG: [root] prbType:31000 was added to PRB_TYPE_TO_WELCOME_VIEW_CONTENT_FACTORY. Personality: VersusAIPersonality
+2026-06-27 12:32:08.118: DEBUG: [root] prbType:31000 was added to ePlatoonLayouts for layoutType:EPlatoonLayout.MEMBER. Personality: VersusAIPersonality
+2026-06-27 12:32:08.118: DEBUG: [root] prbActionName:versusAISquad was registered for entry point (squad). Personality: VersusAIPersonality
+2026-06-27 12:32:08.118: DEBUG: [root] prebType:31000 was registered for entry point (squad). Personality: VersusAIPersonality
+2026-06-27 12:32:08.119: DEBUG: [root] prebType:31000 was registered for entity (squad). Personality: VersusAIPersonality
+2026-06-27 12:32:08.119: DEBUG: [root] prbActionName:versusAISquad was added to BATTLES_SELECTOR_SQUAD_ITEMS. Personality: VersusAIPersonality
+2026-06-27 12:32:08.119: DEBUG: [root] arenaGuiType:31000 was added for squad finder. Personality: VersusAIPersonality
+2026-06-27 12:32:08.119: DEBUG: [root] prbActionName:31000 was added to PRB_CLIENT_COMBINED_IDS. Personality: VersusAIPersonality
+2026-06-27 12:32:08.120: DEBUG: [root] queueType:31000 was registered for QueueProvider. Personality: VersusAIPersonality
+2026-06-27 12:32:08.121: DEBUG: [root] queueType:31000 was added to DEFAULT_QUEUE_TYPE_PRIORITIES. Personality: VersusAIPersonality
+2026-06-27 12:32:08.245: INFO: [SOUND] Start loading Login task
+2026-06-27 12:32:09.060: INFO: [SOUND] Task Login loaded in 0.814291 seconds. Size: 5.097154 Mb
+2026-06-27 12:32:11.842: INFO: [web.cache.web_cache] WebDownloader created. Workers: 2
+2026-06-27 12:32:11.843: INFO: [web.cache.web_cache] WebStorage created. Name: game_loading_cache_mt\cdn Workers: 2
+2026-06-27 12:32:11.844: INFO: [helpers.web.app_storage] WebCache start loading from disk...
+2026-06-27 12:32:11.845: INFO: [helpers.web.app_storage] WebCache size on disk: 13.0 Mb
+2026-06-27 12:32:11.846: INFO: [helpers.web.app_storage] WebCache loading finished
+2026-06-27 12:32:11.846: INFO: [web.cache.web_cache] WebDownloader destroyed
+2026-06-27 12:32:24.216: ERROR: [ERROR] (scripts/common/items/vehicles.py, 3607): repeating matching tags: ('safe', 'front', 'formfactor_square') for uk:GB112_Caliban
+2026-06-27 12:32:32.677: INFO: [WGC] (-2131886077) Running WGC instance is not found in the system
+2026-06-27 12:32:32.763: INFO: [Scaleform] Create GUI Component: 'gui/flash/waitingTransitionsApp.swf'
+2026-06-27 12:32:34.879: INFO: [gui.Scaleform.app_factory] Creating app: scaleform/lobby
+2026-06-27 12:32:34.880: INFO: [frameworks.wulf.windows_system.window] Loading window: MainWindow(uniqueID=2, layer=1, decorator=None, content=MainView(uniqueID=2, layoutID=2))
+2026-06-27 12:32:35.329: INFO: [Scaleform] Create GUI Component: 'gui/flash/lobby.swf'
+2026-06-27 12:32:35.794: INFO: [gui.app_loader.loader] Space is changed: WaitingSpace() -> LoginSpace()
+2026-06-27 12:32:35.794: INFO: [SOUND] Start loading Login task
+2026-06-27 12:32:35.794: INFO: [gui.app_loader.loader] Space is updated: LoginSpace()
+2026-06-27 12:32:35.795: INFO: [WebBrowser] WebExternalCache init
+2026-06-27 12:32:35.795: INFO: [web.cache.web_cache] WebDownloader created. Workers: 2
+2026-06-27 12:32:35.797: INFO: [web.cache.web_cache] WebStorage created. Name: web_cache Workers: 2
+2026-06-27 12:32:35.797: INFO: [helpers.web.app_storage] WebCache start loading from disk...
+2026-06-27 12:32:36.191: INFO: [helpers.web.app_storage] WebCache size on disk: 342.0 Mb
+2026-06-27 12:32:36.191: INFO: [helpers.web.app_storage] WebCache loading finished
+2026-06-27 12:32:36.192: INFO: [web.cache.web_cache] Web prefetch started...
+2026-06-27 12:32:36.192: INFO: [web.cache.web_cache] Download manifest file: https://wgcg-ru.tanki.su/web_cache/v1/get_static_lists/
+2026-06-27 12:32:36.292: INFO: [gui.app_loader.loader] App is initializing: scaleform/lobby
+2026-06-27 12:32:36.316: INFO: [frameworks.wulf.windows_system.window] Loading window: SFWindow(uniqueID=3, layer=16, decorator=None, content=None, viewKey=ViewKey[alias=waiting, name=waiting])
+2026-06-27 12:32:36.318: INFO: [Scaleform] Create GUI Component: 'gui/flash/animations/fadeWindow/fadeWindow.swf'
+2026-06-27 12:32:36.385: WARNING: [Scaleform] Scale9Grid for resource=26 has negative width 0.000000
+2026-06-27 12:32:36.410: ERROR: [ERROR] (scripts/client/helpers/http/__init__.py, 146): Client couldn't download file (ReferenceError('weakly-referenced object no longer exists',), u'https://wgcg-ru.tanki.su/web_cache/v1/get_static_lists/')
+2026-06-27 12:32:36.630: ERROR: [web.cache.web_cache] Manifest download error: https://wgcg-ru.tanki.su/web_cache/v1/get_static_lists/
+2026-06-27 12:32:36.631: INFO: [web.cache.web_cache] WebDownloader destroyed
+2026-06-27 12:32:36.631: INFO: [web.cache.web_cache] Web prefetch finished
+2026-06-27 12:32:36.631: INFO: [web.cache.web_cache] Summary: Downloaded: 0 / 0. Stored: 0 / 0. Size: 0
+2026-06-27 12:32:36.632: INFO: [web.cache.web_cache] Total prefetch time: 0.43900299072265625
+2026-06-27 12:32:36.634: INFO: [gui.app_loader.loader] App is initialized: scaleform/lobby
+2026-06-27 12:32:36.635: INFO: [frameworks.wulf.windows_system.window] Loading window: SFWindow(uniqueID=4, layer=4, decorator=None, content=None, viewKey=ViewKey[alias=login, name=login])
+2026-06-27 12:32:46.170: NOTICE: [NOTE] (C:\Users\fsociety\Desktop\unpack\MY_scripts_unpacked\scripts - client\connection_mgr.py, 189): User authentication method: basic
+2026-06-27 12:32:46.170: NOTICE: [NOTE] (C:\Users\fsociety\Desktop\unpack\MY_scripts_unpacked\scripts - client\connection_mgr.py, 197): Not found allowed_peripheries in params:  ({'auth_realm': 'RU', 'login': 'sdgijsdfkj@gmail.com', 'session': '95683a2a276e0bb89387e2385d6dc852', 'temporary': '0', 'auth_method': 'basic', 'publication': '0'},)
+2026-06-27 12:32:46.178: NOTICE: [NOTE] (C:\Users\fsociety\Desktop\unpack\MY_scripts_unpacked\scripts - client\connection_mgr.py, 137): [LOCAL SERVER] BigWorld.connect URL: 127.0.0.1:20014
+2026-06-27 12:32:46.179: NOTICE: [NOTE] (C:\Users\fsociety\Desktop\unpack\MY_scripts_unpacked\scripts - client\connection_mgr.py, 138): [LOCAL SERVER] publicKeyPath: loginapp_wot.pubkey
+2026-06-27 12:32:46.179: NOTICE: [NOTE] (C:\Users\fsociety\Desktop\unpack\MY_scripts_unpacked\scripts - client\connection_mgr.py, 139): [LOCAL SERVER] username: {"auth_realm": "RU", "login": "sdgijsdfkj@gmail.com", "session": "95683a2a276e0bb89387e2385d6dc852", "temporary": "0", "auth_method": "basic", "publication": "0"}
+2026-06-27 12:32:46.179: NOTICE: [NOTE] (C:\Users\fsociety\Desktop\unpack\MY_scripts_unpacked\scripts - client\connection_mgr.py, 140): [LOCAL SERVER] inactivityTimeout: 40
+2026-06-27 12:32:46.750: NOTICE: [NOTE] (C:\Users\fsociety\Desktop\unpack\MY_scripts_unpacked\scripts - client\connection_mgr.py, 143): [LOCAL SERVER] BigWorld.connect returned OK
+2026-06-27 12:33:17.277: NOTICE: [NOTE] (C:\Users\fsociety\Desktop\unpack\MY_scripts_unpacked\scripts - client\connection_mgr.py, 150): [LOCAL SERVER] Response: stage=1 status=LOGIN_REJECTED_NO_BASEAPP_RESPONSE data=Exhausted available attempts (4294967295) to login to BaseApp 127.0.0.1:20017
+2026-06-27 12:33:30.805: INFO: [VOIP.VOIPManager] Create
+2026-06-27 12:33:30.806: INFO: [gui.Scaleform.app_factory] Destroying app: scaleform/battle
+2026-06-27 12:33:30.806: INFO: [gui.Scaleform.app_factory] Destroying app: scaleform/lobby
+2026-06-27 12:33:30.837: INFO: [gui.app_loader.loader] App is destroyed: scaleform/lobby
+2026-06-27 12:33:30.837: INFO: [Scaleform] Destroy GUI Component: 'gui/flash/animations/fadeWindow/fadeWindow.swf'
+2026-06-27 12:33:30.851: INFO: [VOIP.VOIPManager] Destroy
+2026-06-27 12:33:30.859: INFO: [web.cache.web_cache] WebStorage destroyed
+2026-06-27 12:33:30.859: INFO: [WebBrowser] WebExternalCache destroyed
+2026-06-27 12:33:30.860: INFO: [web.cache.web_cache] WebStorage destroyed
+2026-06-27 12:33:31.067: INFO: [Scaleform] ToRemove:  This 92373ec0, owner GFGUIComponent
+2026-06-27 12:33:31.067: INFO: [Scaleform] ToRemove:  This a1012a20, owner gui/flash/lobby.swf
+2026-06-27 12:33:31.067: INFO: [Scaleform] ToRemove:  This a100f8a0, owner gui/flash/waitingTransitionsApp.swf
+2026-06-27 12:33:31.067: INFO: [Scaleform] Registered:  This 92373ec0, owner GFGUIComponent
+2026-06-27 12:33:31.067: INFO: [Scaleform] Registered:  This a1012a20, owner gui/flash/lobby.swf
+2026-06-27 12:33:31.067: INFO: [Scaleform] Registered:  This a100f8a0, owner gui/flash/waitingTransitionsApp.swf
+2026-06-27 12:33:31.067: INFO: [Scaleform] Removing Component:  This 92373ec0, owner GFGUIComponent
+2026-06-27 12:33:31.067: INFO: [Scaleform] Component Removed
+2026-06-27 12:33:31.067: INFO: [Scaleform] Removing Component:  This a1012a20, owner gui/flash/lobby.swf
+2026-06-27 12:33:31.067: INFO: [Scaleform] Component Removed
+2026-06-27 12:33:31.067: INFO: [Scaleform] Removing Component:  This a100f8a0, owner gui/flash/waitingTransitionsApp.swf
+2026-06-27 12:33:31.067: INFO: [Scaleform] Component Removed
+2026-06-27 12:33:31.068: INFO: [Scaleform] Destroy GUI Component: 'GFGUIComponent'
+2026-06-27 12:33:31.069: INFO: [Scaleform] AvmDisplayObj::ClearParentProp: 'root1' > 'flash.display.MovieClip'
+2026-06-27 12:33:31.213: INFO: [Scaleform] Destroy GUI Component: 'gui/flash/lobby.swf'
+2026-06-27 12:33:31.213: INFO: [Scaleform] AvmDisplayObj::ClearParentProp: 'root1' > 'flash.display.MovieClip'
+2026-06-27 12:33:31.217: INFO: [Scaleform] Destroy GUI Component: 'gui/flash/waitingTransitionsApp.swf'
+
+\------------------------------------------------------------------------------------------/
+
